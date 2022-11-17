@@ -4,18 +4,22 @@ body header nav {
   justify-content: center;
 }
 body header nav h1 {
-  margin-right: 50%;
+  margin-right: 20%;
 }
 body header nav ul {
   list-style: none;
 }
 body header nav ul li a {
-  text-decoration: none;
   color: black;
+  -webkit-text-decoration: underline #4BA87D;
+          text-decoration: underline #4BA87D;
 }
 body header nav button {
   margin-left: 3%;
-  background-color: green;
+  background-color: #4BA87D;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 24px;
 }
 body .section1 {
   display: flex;
@@ -24,6 +28,18 @@ body .section1 {
 }
 body .section1 .texte h2 {
   font-size: 55px;
+}
+body .section1 .texte .bouton1 {
+  background-color: #4BA87D;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 24px;
+}
+body .section1 .texte .bouton2 {
+  border: 2px solid #4BA87D;
+  color: #4BA87D;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 24px;
 }
 body .section1 .image {
   width: 60%;
@@ -41,13 +57,17 @@ body .section2 .imagebackground {
   background-repeat: no-repeat;
   margin-left: 20%;
 }
+body .section2 .imagebackground .bouton3 {
+  margin-left: 33%;
+  border: none;
+  color: #4BA87D;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 24px;
+}
 body .section2 .imagebackground h3 {
   color: white;
   font-size: 70px;
   margin-left: 10%;
-}
-body .section2 .imagebackground button {
-  margin-left: 35%;
 }
 body .section3 {
   display: flex;
@@ -57,8 +77,15 @@ body .section3 .groupe1 .cadre {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-left: 3px solid rgba(0, 0, 0, 0.1);
-  width: 60%;
+  width: 70%;
   margin-bottom: 40%;
+}
+body .section3 .groupe1 .cadre a {
+  color: #4BA87D;
+  text-decoration: none;
+}
+body .section3 img {
+  width: 60%;
 }
 body .section4 {
   height: 50vh;
@@ -101,6 +128,12 @@ body .section5 .email {
   justify-content: center;
   margin-bottom: 5%;
 }
+body .section5 .email button {
+  color: white;
+  background-color: #4BA87D;
+  padding: 10px 24px;
+  border: none;
+}
 body .section5 .logo {
   display: flex;
   align-items: center;
@@ -109,10 +142,22 @@ body .section5 .logo {
 body .section6 {
   background-color: #4BA87D;
   height: 60vh;
+}
+body .section6 .titre2 {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10%;
+}
+body .section6 .bouton2style {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body .section6 .bouton2 {
+  color: #4BA87D;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 24px;
 }
 body footer {
   display: flex;
