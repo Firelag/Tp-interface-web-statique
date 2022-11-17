@@ -1,0 +1,28 @@
+@mixin header {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            margin-right: 50%;
+        }
+        ul{
+            list-style: none;
+            
+            
+            
+            li{
+                a{  
+                   text-decoration: none;
+                   color: black;
+                   
+                }
+            }
+        }
+        button{
+            margin-left: 3%;
+            background-color: green;
+        }
+        
+    }
+}

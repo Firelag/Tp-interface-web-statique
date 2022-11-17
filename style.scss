@@ -1,31 +1,10 @@
+@import "header";
+@import "footer";
+@import "variables";
+
 body{
     header {
-        nav{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            h1{
-                margin-right: 50%;
-            }
-            ul{
-                list-style: none;
-                
-                
-                
-                li{
-                    a{  
-                       text-decoration: none;
-                       color: black;
-                       
-                    }
-                }
-            }
-            button{
-                margin-left: 3%;
-                background-color: green;
-            }
-            
-        }
+        @include header;
     }
     .section1{
         display: flex;
@@ -83,7 +62,7 @@ body{
     }
 
     .section4{
-        height: 100vh;
+        height: 50vh;
         display: flex;
         justify-content: space-around;
         
@@ -108,5 +87,43 @@ body{
         .txt1{
             color: white;
         }
+    }
+    .section5{
+        margin-bottom: 10%;
+        .texte1{
+            display: flex;
+            align-items:center ;
+            justify-content: space-around;
+            font-size: 30px;
+            
+            
+        }
+        .email{
+            display: flex;
+            align-items:center ;
+            justify-content: center;
+            margin-bottom: 5%;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+    }
+    .section6{
+        background-color: $fondvert;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        
+        
+        
+    }
+
+    footer{
+        @include footer;
     }
 }

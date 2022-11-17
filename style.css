@@ -61,7 +61,7 @@ body .section3 .groupe1 .cadre {
   margin-bottom: 40%;
 }
 body .section4 {
-  height: 100vh;
+  height: 50vh;
   display: flex;
   justify-content: space-around;
 }
@@ -85,4 +85,35 @@ body .section4 .imagef3 {
 }
 body .section4 .txt1 {
   color: white;
+}
+body .section5 {
+  margin-bottom: 10%;
+}
+body .section5 .texte1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+}
+body .section5 .email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+body .section5 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body .section6 {
+  background-color: #4BA87D;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+body footer {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
