@@ -3,6 +3,110 @@ body{
         nav{
             display: flex;
             align-items: center;
+            justify-content: center;
+            h1{
+                margin-right: 50%;
+            }
+            ul{
+                list-style: none;
+                
+                
+                
+                li{
+                    a{  
+                       text-decoration: none;
+                       color: black;
+                       
+                    }
+                }
+            }
+            button{
+                margin-left: 3%;
+                background-color: green;
+            }
+            
+        }
+    }
+    .section1{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        .texte {
+            h2{
+                font-size: 55px;
+            }
+        }
+
+        .image{
+            width: 60%;
+            position: relative;
+        }
+        
+    }
+    .section2{
+        width: 100%;
+        display: flex;
+        align-content: center;
+        
+        
+       
+        .imagebackground{
+            width: 100%;
+            background-image: url(/assets/VIDEO\ \(image\).png);
+            height: 100vh;
+            background-repeat: no-repeat;
+            margin-left: 20%;
+            
+            h3{
+                color: white;
+                font-size: 70px;
+                margin-left: 10%;
+            }
+            button{
+                margin-left: 35%;
+            }
+        }
+    }
+    .section3{
+        display: flex;
+        .groupe1{
+            .cadre{
+                border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+                border-right: 1px solid rgba(0, 0, 0, 0.1);
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+                border-left: 3px solid rgba(0, 0, 0, 0.1);
+
+                width: 60%;
+                margin-bottom: 40%;
+            }
+        }
+    }
+
+    .section4{
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        
+        .imagef1{
+            background-image: url(/assets/photo\ \(2\).png);
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 25%;
+        }
+        .imagef2{
+            background-image: url(/assets/photo\ \(3\).png);
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 25%;
+        }
+        .imagef3{
+            background-image: url(/assets/photo\ \(4\).png);
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 25%;
+        }
+        .txt1{
+            color: white;
         }
     }
 }

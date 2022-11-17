@@ -1,4 +1,88 @@
 body header nav {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+body header nav h1 {
+  margin-right: 50%;
+}
+body header nav ul {
+  list-style: none;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+body header nav button {
+  margin-left: 3%;
+  background-color: green;
+}
+body .section1 {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+body .section1 .texte h2 {
+  font-size: 55px;
+}
+body .section1 .image {
+  width: 60%;
+  position: relative;
+}
+body .section2 {
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+body .section2 .imagebackground {
+  width: 100%;
+  background-image: url(/assets/VIDEO\ \(image\).png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin-left: 20%;
+}
+body .section2 .imagebackground h3 {
+  color: white;
+  font-size: 70px;
+  margin-left: 10%;
+}
+body .section2 .imagebackground button {
+  margin-left: 35%;
+}
+body .section3 {
+  display: flex;
+}
+body .section3 .groupe1 .cadre {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin-bottom: 40%;
+}
+body .section4 {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+body .section4 .imagef1 {
+  background-image: url(/assets/photo\ \(2\).png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 25%;
+}
+body .section4 .imagef2 {
+  background-image: url(/assets/photo\ \(3\).png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 25%;
+}
+body .section4 .imagef3 {
+  background-image: url(/assets/photo\ \(4\).png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 25%;
+}
+body .section4 .txt1 {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
