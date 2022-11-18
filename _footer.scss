@@ -1,3 +1,47 @@
 @mixin footer {
-    display: flex;
+
+    .hautf {
+        display: flex;
+        justify-content: space-around;
+
+        .logoninja {
+            display: flex;
+        }
+
+        .lien {
+            display: flex;
+
+            .lien1 {
+                ul {
+                    li {
+                        display: flex;
+                        flex-direction: column;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+    .basf{
+        display: flex;
+        justify-content: space-around;
+        .terms{
+            ul{
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        
+                    }
+                }
+            }
+        }
+    }
 }

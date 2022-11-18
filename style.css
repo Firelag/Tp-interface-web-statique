@@ -5,6 +5,7 @@ body header nav {
 }
 body header nav h1 {
   margin-right: 20%;
+  font-family: "Raleway";
 }
 body header nav ul {
   list-style: none;
@@ -159,6 +160,32 @@ body .section6 .bouton2 {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px 24px;
 }
-body footer {
+body footer .hautf {
   display: flex;
+  justify-content: space-around;
+}
+body footer .hautf .logoninja {
+  display: flex;
+}
+body footer .hautf .lien {
+  display: flex;
+}
+body footer .hautf .lien .lien1 ul li {
+  display: flex;
+  flex-direction: column;
+}
+body footer .hautf .lien .lien1 ul li a {
+  text-decoration: none;
+  color: black;
+}
+body footer .basf {
+  display: flex;
+  justify-content: space-around;
+}
+body footer .basf .terms ul li {
+  list-style: none;
+}
+body footer .basf .terms ul li a {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
