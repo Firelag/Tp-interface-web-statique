@@ -13,17 +13,21 @@ body{
         .texte {
             h2{
                 font-size: 55px;
+                font-family: 'Playfair Display';
+            }
+            p{
+                font-family: 'Raleway';
             }
             .bouton1{
                 background-color: $fondvert ;
                 color: white;
-                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                border: NONE;
                 padding: 10px 24px;
             }
             .bouton2{
                 border: 2px solid $fondvert;
                 color: $fondvert;
-                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                
                 padding: 10px 24px;
             }
         }
@@ -54,18 +58,22 @@ body{
                 color: $fondvert;
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
                 padding: 10px 24px;
+                font-family: "Raleway";
             }
             
             h3{
                 color: white;
                 font-size: 70px;
                 margin-left: 10%;
+                font-family: 'Playfair Display';
+                margin-top: 10%;
             }
             
         }
     }
     .section3{
         display: flex;
+        
       
         .groupe1{
             .cadre{
@@ -76,6 +84,7 @@ body{
 
                 width: 70%;
                 margin-bottom: 40%;
+                font-family: 'Raleway';
 
                 a{
                     color: $fondvert;
@@ -87,6 +96,15 @@ body{
       
         img{
             width: 60%;
+        }
+        .txt{
+            width: 30%;
+            h3{
+                font-family: 'Playfair Display';
+            }
+            p{
+                font-family: 'Raleway';
+            }
         }
     }
 
@@ -115,6 +133,10 @@ body{
         }
         .txt1{
             color: white;
+            font-family: 'Raleway';
+            font-size: larger;
+            margin-top: 40%;
+            margin-left: 10%;
         }
     }
     .section5{
@@ -124,6 +146,7 @@ body{
             align-items:center ;
             justify-content: space-around;
             font-size: 30px;
+            font-family: 'Playfair Display';
             
             
         }
@@ -132,11 +155,13 @@ body{
             align-items:center ;
             justify-content: center;
             margin-bottom: 5%;
+            font-family: 'Raleway';
+            
             button{
                 color: white;
                 background-color: $fondvert;
                 
-                padding: 10px 24px;
+                padding: 3px 24px;
                 border: none;
             }
         }
@@ -155,6 +180,7 @@ body{
             align-items: center;
             justify-content: space-around;
             padding-top: 10%;
+            font-family: 'Playfair Display';
        }
        .bouton2style{
             display: flex;
@@ -166,6 +192,7 @@ body{
             color: $fondvert;
             box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
             padding: 10px 24px;
+            font-family: 'Raleway'
        }
         
     }

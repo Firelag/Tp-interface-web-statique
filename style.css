@@ -19,8 +19,9 @@ body header nav button {
   margin-left: 3%;
   background-color: #4BA87D;
   color: white;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
   padding: 10px 24px;
+  font-family: "Raleway";
 }
 body .section1 {
   display: flex;
@@ -29,17 +30,20 @@ body .section1 {
 }
 body .section1 .texte h2 {
   font-size: 55px;
+  font-family: "Playfair Display";
+}
+body .section1 .texte p {
+  font-family: "Raleway";
 }
 body .section1 .texte .bouton1 {
   background-color: #4BA87D;
   color: white;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: NONE;
   padding: 10px 24px;
 }
 body .section1 .texte .bouton2 {
   border: 2px solid #4BA87D;
   color: #4BA87D;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px 24px;
 }
 body .section1 .image {
@@ -64,11 +68,14 @@ body .section2 .imagebackground .bouton3 {
   color: #4BA87D;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px 24px;
+  font-family: "Raleway";
 }
 body .section2 .imagebackground h3 {
   color: white;
   font-size: 70px;
   margin-left: 10%;
+  font-family: "Playfair Display";
+  margin-top: 10%;
 }
 body .section3 {
   display: flex;
@@ -80,6 +87,7 @@ body .section3 .groupe1 .cadre {
   border-left: 3px solid rgba(0, 0, 0, 0.1);
   width: 70%;
   margin-bottom: 40%;
+  font-family: "Raleway";
 }
 body .section3 .groupe1 .cadre a {
   color: #4BA87D;
@@ -87,6 +95,15 @@ body .section3 .groupe1 .cadre a {
 }
 body .section3 img {
   width: 60%;
+}
+body .section3 .txt {
+  width: 30%;
+}
+body .section3 .txt h3 {
+  font-family: "Playfair Display";
+}
+body .section3 .txt p {
+  font-family: "Raleway";
 }
 body .section4 {
   height: 50vh;
@@ -113,6 +130,10 @@ body .section4 .imagef3 {
 }
 body .section4 .txt1 {
   color: white;
+  font-family: "Raleway";
+  font-size: larger;
+  margin-top: 40%;
+  margin-left: 10%;
 }
 body .section5 {
   margin-bottom: 10%;
@@ -122,17 +143,19 @@ body .section5 .texte1 {
   align-items: center;
   justify-content: space-around;
   font-size: 30px;
+  font-family: "Playfair Display";
 }
 body .section5 .email {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 5%;
+  font-family: "Raleway";
 }
 body .section5 .email button {
   color: white;
   background-color: #4BA87D;
-  padding: 10px 24px;
+  padding: 3px 24px;
   border: none;
 }
 body .section5 .logo {
@@ -149,6 +172,7 @@ body .section6 .titre2 {
   align-items: center;
   justify-content: space-around;
   padding-top: 10%;
+  font-family: "Playfair Display";
 }
 body .section6 .bouton2style {
   display: flex;
@@ -159,6 +183,10 @@ body .section6 .bouton2 {
   color: #4BA87D;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px 24px;
+  font-family: "Raleway";
+}
+body footer {
+  font-family: "Raleway";
 }
 body footer .hautf {
   display: flex;
