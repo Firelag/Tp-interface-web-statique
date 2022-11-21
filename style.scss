@@ -2,103 +2,136 @@
 @import "footer";
 @import "variables";
 
-body{
+body {
     header {
         @include header;
     }
-    .section1{
+
+    .section1 {
         display: flex;
-        align-items: center;
+
         height: 100vh;
-        .texte {
-            h2{
-                font-size: 55px;
-                font-family: 'Playfair Display';
-            }
-            p{
-                font-family: 'Raleway';
-            }
-            .bouton1{
-                background-color: $fondvert ;
-                color: white;
-                border: NONE;
-                padding: 10px 24px;
-            }
-            .bouton2{
-                border: 2px solid $fondvert;
-                color: $fondvert;
+        margin-top: 10%;
+
+        .imagefond {
+                height: 100vh;
+                position: absolute;
+                margin-left: 45%;
                 
-                padding: 10px 24px;
+                background-repeat: no-repeat;
+                background-image: url(/assets/photo-1544717302-de2939b7ef71\ \(image\).png);
             }
-        }
-
-        .image{
-            width: 60%;
-            position: relative;
-        }
         
-    }
-    .section2{
-        width: 100%;
-        display: flex;
-        align-content: center;
+                .texte {
+                    position: relative;
+                    right: 60%;
+                    h2 {
+                        font-size: 55px;
+                        font-family: 'Playfair Display';
+                    }
+        
+                    p {
+                        font-family: 'Raleway';
+                    }
+        
+                    .bouton1 {
+                        background-color: $fondvert ;
+                        color: white;
+                        border: NONE;
+                        padding: 10px 24px;
+                    }
+        
+                    .bouton2 {
+                        border: 2px solid $fondvert;
+                        color: $fondvert;
+        
+                        padding: 10px 24px;
+                    }
+        
+                }
         
         
-       
-        .imagebackground{
+                .image {
+                    width: 60%;
+                    position: relative;
+                }
+        
+                }
+        
+        .section2 {
             width: 100%;
-            background-image: url(/assets/VIDEO\ \(image\).png);
-            height: 100vh;
-            background-repeat: no-repeat;
-            margin-left: 20%;
-
-            .bouton3{
-                margin-left: 33%; 
-                border: none;
-                color: $fondvert;
-                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-                padding: 10px 24px;
-                font-family: "Raleway";
-            }
-            
-            h3{
-                color: white;
-                font-size: 70px;
-                margin-left: 10%;
-                font-family: 'Playfair Display';
-                margin-top: 10%;
-            }
-            
-        }
-    }
-    .section3{
-        display: flex;
+            display: flex;
+            align-content: center;
         
-      
-        .groupe1{
-            .cadre{
-                border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-                border-right: 1px solid rgba(0, 0, 0, 0.1);
-                border-top: 1px solid rgba(0, 0, 0, 0.1);
-                border-left: 3px solid rgba(0, 0, 0, 0.1);
-
-                width: 70%;
-                margin-bottom: 40%;
-                font-family: 'Raleway';
-
-                a{
+        
+        
+            .imagebackground {
+                width: 100%;
+                background-image: url(/assets/VIDEO\ \(image\).png);
+                height: 100vh;
+                background-repeat: no-repeat;
+                margin-left: 20%;
+                
+        
+                .bouton3 {
+                    margin-left: 33%;
+                    border: none;
                     color: $fondvert;
-                    text-decoration: none;
+                    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    padding: 10px 24px;
+                    font-family: "Raleway";
+                }
+        
+                h3 {
+                    color: white;
+                    font-size: 70px;
+                    margin-left: 10%;
+                    font-family: 'Playfair Display';
+                    margin-top: 10%;
+                }
+        
+            }
+        }
+        
+        .section3 {
+            display: flex;
+            height: 100vh;
+            justify-content: space-around;
+            
+        
+        
+            .groupe1 {
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                
+                .cadre {
+                    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+                    border-right: 1px solid rgba(0, 0, 0, 0.1);
+                    border-top: 1px solid rgba(0, 0, 0, 0.1);
                     
+                    position: absolute;
+                    background-color: white;
+                    bottom: 50%;
+                    width: 99%;
+                    
+                    font-family: 'Raleway';
+                      
+                    a {
+                        color: $fondvert;
+                        text-decoration: none;
+        
+                    }
                 }
             }
-        }
       
         img{
             width: 60%;
         }
         .txt{
-            width: 30%;
+            width: 20%;
+            font-size: larger;
             h3{
                 font-family: 'Playfair Display';
             }

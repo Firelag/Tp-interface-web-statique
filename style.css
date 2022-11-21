@@ -25,8 +25,19 @@ body header nav button {
 }
 body .section1 {
   display: flex;
-  align-items: center;
   height: 100vh;
+  margin-top: 10%;
+}
+body .section1 .imagefond {
+  height: 100vh;
+  position: absolute;
+  margin-left: 45%;
+  background-repeat: no-repeat;
+  background-image: url(/assets/photo-1544717302-de2939b7ef71\ \(image\).png);
+}
+body .section1 .texte {
+  position: relative;
+  right: 60%;
 }
 body .section1 .texte h2 {
   font-size: 55px;
@@ -79,14 +90,23 @@ body .section2 .imagebackground h3 {
 }
 body .section3 {
   display: flex;
+  height: 100vh;
+  justify-content: space-around;
+}
+body .section3 .groupe1 {
+  position: relative;
+}
+body .section3 .groupe1 img {
+  width: 100%;
 }
 body .section3 .groupe1 .cadre {
   border-bottom: 3px solid rgba(0, 0, 0, 0.1);
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-left: 3px solid rgba(0, 0, 0, 0.1);
-  width: 70%;
-  margin-bottom: 40%;
+  position: absolute;
+  background-color: white;
+  bottom: 50%;
+  width: 99%;
   font-family: "Raleway";
 }
 body .section3 .groupe1 .cadre a {
@@ -97,7 +117,8 @@ body .section3 img {
   width: 60%;
 }
 body .section3 .txt {
-  width: 30%;
+  width: 20%;
+  font-size: larger;
 }
 body .section3 .txt h3 {
   font-family: "Playfair Display";
@@ -194,6 +215,10 @@ body footer .hautf {
 }
 body footer .hautf .logoninja {
   display: flex;
+}
+body footer .hautf .logoninja img {
+  width: 70px;
+  height: 80px;
 }
 body footer .hautf .lien {
   display: flex;
