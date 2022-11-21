@@ -2,6 +2,8 @@ body header nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  position: relative;
 }
 @media (max-width: 768px) {
   body header nav {
@@ -17,13 +19,25 @@ body header nav h1 {
     margin-right: 0;
   }
 }
-body header nav ul {
+body header nav #myLinks {
   list-style: none;
 }
-body header nav ul li a {
+@media (max-width: 768px) {
+  body header nav #myLinks {
+    display: none;
+  }
+}
+body header nav #myLinks li a {
   color: black;
   -webkit-text-decoration: underline #4BA87D;
           text-decoration: underline #4BA87D;
+}
+body header nav #myLinks li a .icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 body header nav button {
   margin-left: 3%;
